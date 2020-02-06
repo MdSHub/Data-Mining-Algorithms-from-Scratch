@@ -97,4 +97,8 @@ L,suppData= apriori(dataSet,minSupport=0.6)
 
 rules= generateRules(L,suppData, minConf=0.8)
 
+print(rules)  # all the rules
+print(suppData) #all the itemsets count
+#print(L[0],L[1],L[2],..........................)upto all the data Itemset which are above the min_Sup count.
+
 
